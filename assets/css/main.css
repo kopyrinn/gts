@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #172a28; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #00412d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #055a2f; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -53,7 +53,7 @@
 }
 
 .accent-background {
-  --background-color: #00412D;
+  --background-color: #055a2f;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
@@ -307,6 +307,36 @@ h6 {
   font-weight: 700;
   color: var(--heading-color);
 }
+
+@media (max-width: 768px) {
+    .header .logo h1 {
+        font-size: 17px;
+    }
+}
+
+.img-hero {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .img-hero {
+        max-width: 30%;
+    }
+}
+
+@media (min-width: 769px) {
+    .img-hero {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 991px) {
+    .img-hero {
+        max-width: 100%;
+    }
+}
+
 
 .header .logo span {
   font-size: 32px;
@@ -891,6 +921,13 @@ section,
   width: 100%;
   position: relative;
   padding: 140px 0 0 0;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+      padding: 90px 0 0 0;
+    }
 }
 
 .hero .container {
