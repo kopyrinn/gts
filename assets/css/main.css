@@ -2890,3 +2890,10 @@ background-color: rgba(255, 255, 255, 0.2);
   font-size: 14px;
 }
 
+.txt {
+ 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+   color: white !important;
+}
