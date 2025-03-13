@@ -1959,7 +1959,7 @@ opacity: 0.05; /* 5% непрозрачности */
 .contact .info-item i {
   font-size: 20px;
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--contrast-color), transparent 80%);
+background-color: rgba(255, 255, 255, 0.2);
   width: 44px;
   height: 44px;
   display: flex;
@@ -2891,5 +2891,5 @@ opacity: 0.05; /* 5% непрозрачности */
 }
 
 .txt {
-  color: white;
+  color: white !important;
 }
