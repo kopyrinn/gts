@@ -1021,7 +1021,7 @@ section,
 
 .hero .icon-box {
   padding: 30px 30px;
-  position: relative;
+  position: relative;f
   overflow: hidden;
   background: var(--background-color);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
@@ -1055,7 +1055,7 @@ section,
 }
 
 .hero .icon-box:hover {
-  background-color: color-mix(in srgb, var(--background-color), white 10%);
+  background-color: #1e6b44;
 }
 
 .hero .icon-box:hover .title a,
