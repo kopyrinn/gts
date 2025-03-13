@@ -1949,7 +1949,7 @@ opacity: 0.05; /* 5% непрозрачности */
   margin-bottom: 20px;
   padding: 20px;
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--contrast-color), transparent 90%);
+  background-color: rgba(var(--white-rgb, 255, 255, 255), 0.1);
 }
 
 .contact .info-item:last-child {
@@ -1983,6 +1983,7 @@ opacity: 0.05; /* 5% непрозрачности */
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  color: white;
 }
 
 .contact .info-item:hover i {
